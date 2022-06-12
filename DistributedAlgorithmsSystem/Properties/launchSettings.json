@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DistributedAlgorithmsSystem": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "launchBrowser": false,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "hubIp=127.0.0.1 hubPort=5000 ip=127.0.0.1 ports=5005;5006;5007 indexes=1;2;3 owner=sys"
+    }
+  }
+}
